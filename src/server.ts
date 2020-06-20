@@ -1,10 +1,10 @@
-import express from 'express';
-import "@config/config.json";
+import express from 'express'
+import '@config/config.json'
 
-const app = express();
+const app = express()
 
 app.get('/', (request, response) => {
-  return response.json({ message: 'Hello World' });
-});
+  return response.json({ message: 'Hello World' })
+})
 
-app.listen(3333);
+app.listen(3333)
